@@ -7,6 +7,6 @@ from dict import word_to_dit
 data = load_file()
 for word in data:
     word = word.strip()
-    dict_word = word_to_dit(word)
-    if if_balaned(word, dict_word):
+    #dict_word = word_to_dit(word)
+    if if_balaned(word):
         save_result(word)
