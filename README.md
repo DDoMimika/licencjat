@@ -18,7 +18,7 @@ plik powinien znajdowa&#263 si&#281 w tym samym folderze co programy</p>
 <ul><li> sprawdzamy czy jest zbilanoswane, je&#347li tak to zapisujemy je w pliku z wynikiem</li></ul>
 </li><li>koniec</p>
 </ul>
-<p>Opis dzia&#322ania if_balanced.py
+<p>Opis dzia&#322ania if_bilanced.py
 <ul><li> start</li>
 <li> dla wszystkich liter w s&#322ownie
 	<ul><li> sprawdzamy czy litera znajduje si&#281 ju&#380 w s&#322owniku ilosci wystepowania litery

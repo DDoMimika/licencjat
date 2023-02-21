@@ -1,4 +1,6 @@
-def if_balaned(word, n):
+# to prawie jest wektorami Parikha
+
+def if_bilanced(word, n):
     letter_max_min = {}
     letter_amount = {}
     
@@ -6,7 +8,7 @@ def if_balaned(word, n):
         if not letter in letter_amount:
             letter_amount[letter] = 0
 
-    for i in range(2, len(word)):
+    for i in range(n+1, len(word)):
         letter_max_min = {x: [len(word), 0] for x in letter_amount}
         for case in range(0, len(word) - i + 1):
             letter_amount = {x: 0 for x in letter_amount}
